@@ -1,0 +1,41 @@
+
+# Diretório do Cypress
+cypress/videos/
+cypress/screenshots/
+cypress/reports/
+
+# Arquivos de cache
+cypress/coverage/
+node_modules/
+.cache/
+
+# Arquivos de configuração do editor
+.vscode/
+.editorconfig
+
+# Arquivos do sistema operacional
+.DS_Store
+Thumbs.db
+
+# Arquivos de log
+*.log
+nuxt*.log
+
+# Arquivos temporários
+*.tmp
+
+# Outros arquivos ignorados
+package-lock.json
+yarn.lock
+yarn-error.log
+
+# Configurações de ambiente
+*.env
+.env.*
+
+# Arquivos de build
+/dist/
+/build/
+
+# Arquivos de teste cobertura
+coverage/
